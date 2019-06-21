@@ -1,0 +1,44 @@
+body {
+    background:url(../img/login_bg.jpg) no-repeat;
+    background-size:100% 100%;
+    margin:0;
+    padding:0;
+    height:100vh;
+}
+body.chatWrapper {
+    background:#fff;
+}
+#loginbox {
+    padding-top:200px;
+    width:250px;
+    text-align:left;
+    margin:0 auto;
+}
+h1 {
+    text-align: center;
+    color:#fff;
+}
+.login {
+    color:#fff;
+    text-align: center;
+}
+.login> input[type=text] {
+    height:30px;
+}
+.login > input[type=button] {
+    background:none;
+    width: 72px;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+}
+.chatinput {
+    display: block;
+    width: 100%;
+    position: absolute;
+    min-height: 30px;
+    bottom: 0;
+}
+#content {
+    height: auto;
+}
